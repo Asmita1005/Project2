@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Course</title>
+    <style>
+        .con{
+            width: 900px;
+            height: 650px;
+            border: 12px groove brown;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+            margin-left: 300px;
+        }
+        .ca{
+            flex-basis: 20%;
+            height: 265px;
+            text-align: center;
+            padding: 10px;
+            background-color: rgb(198, 218, 187);
+            box-shadow: 10px 10px 10px rgb(35, 30, 30);
+            border-radius: 15px;
+        }
+        .ca img{
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            box-shadow: 0px 0px 15px 7px;
+        }
+        h1{
+            margin-left: 700px;
+        }
+        button{
+            border-radius: 20px;
+            background-color: rgb(72, 162, 236);
+            border: rgb(85, 169, 238);
+            height: 25px;
+            font-weight: bold;
+            color: rgb(38, 36, 36);
+        }
+        button:hover{
+            cursor: pointer;
+            background-color: rgb(64, 146, 197);
+            height: 27px;
+            width: 95px;
+        }
+        .ca:hover img{
+            transform: scale(1.2);
+            transition: 0.5s; 
+        }
+        .ca:hover{
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>Our Courses</h1>
+    <div class="con">
+        <div class="ca" id="ca1">
+            <img src="html.png" alt="html" style="background-color: white;">
+            <h3>HTML</h3>
+            <p>HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+            <button style="margin-top: 30px;">Read More...</button>
+        </div>
+        <div class="ca" id="ca2">
+            <img src="c++.jpg" alt="c++">
+            <h3>C++</h3>
+            <p>C++ is a high-level, general-purpose programming language.</p>
+            <button style="margin-top: 49px;">Read More...</button>
+        </div>
+        <div class="ca" id="ca3">
+            <img src="php.png" alt="php">
+            <h3>PHP</h3>
+            <p>PHP is a general-purpose scripting language geared towards web development.</p>
+            <button style="margin-top: 49px;">Read More...</button>
+        </div>
+        <div class="ca" id="ca4">
+            <img src="js.png" alt="js">
+            <h3>JS</h3>
+            <p>JavaScript is a high-level programming language that follows the ECMAScript standard.</p>
+            <button style="margin-top: 30px;">Read More...</button>
+        </div>
+        <div class="ca" id="ca5">
+            <img src="ruby.png" alt="ruby">
+            <h3>RUBY</h3>
+            <p>Ruby is a dynamic, reflective, object-oriented, general-purpose programming language.</p>
+            <button style="margin-top: 30px;">Read More...</button>
+        </div>
+        <div class="ca" id="ca6">
+            <img src="css.png" alt="js" style="background-color: white;">
+            <h3>CSS</h3>
+            <p>CSS is a stylesheet language used to style and enhance website presentation.</p>
+            <button style="margin-top: 30px;">Read More...</button>
+        </div>
+        <div class="ca" id="ca7">
+            <img src="python.jpg" alt="python">
+            <h3>PYTHON</h3>
+            <p>Python is a high-level, general-purpose programming language.</p>
+            <button style="margin-top: 48.5px;">Read More...</button>
+        </div>
+        <div class="ca" id="ca8">
+            <img src="swift.png" alt="swift" style="background-color: white;">
+            <h3>SWIFT</h3>
+            <p>Swift is a programming language built to be incredibly user-friendly.</p>
+            <button style="margin-top: 48.5px;">Read More...</button>
+        </div>
+    </div>
+</body>
+</html>
